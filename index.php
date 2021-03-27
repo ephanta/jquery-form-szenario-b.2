@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>jQuery</title>
-    <script src="js/plugin/jquery-3.6.0.min.js"></script>
     <?php
       include_once "config/database.php";
       include_once "objects/form_model.php";
@@ -13,8 +12,8 @@
       $var = new FormModel();
       $form = new Form($db, $var);
     ?>
+    <script src="js/plugin/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/ajax.js"></script>
   </head>
   <body>
     <h1>jQuery</h1>

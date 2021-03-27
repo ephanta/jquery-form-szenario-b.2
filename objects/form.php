@@ -28,7 +28,6 @@ class Form{
         $this->color3 = !isset($data['color3']) ? false : true;
         $this->color4 = !isset($data['color4']) ? false : true;
         $this->comment = !isset($data['comment']) ? null : $data['comment'];
-
     }
     public function create(){
         $query =
